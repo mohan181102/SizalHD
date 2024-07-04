@@ -1,0 +1,40 @@
+.div-main-bifocal{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    /* padding: 2rem; */
+}
+
+.h2-bifocal{
+    font-size: 1.7rem;
+    color: brown;
+    padding-bottom: 20px;
+}
+
+.p-bifocal{
+    font-size: 15px;
+}
+
+.div-img-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+.img-for-bifocal{
+    width: 400px;
+}
+
+.h4-features{
+    width: 400px;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.li-bifocal{
+    list-style-type: dot;
+}

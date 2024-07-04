@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 0px;
+    left: 0px;
+    background-color: rgba( 0,0,0,0.1);
+}
+
+.div-sizal{
+    width: 100%;
+    height: 90px;
+    z-index: 300;
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 700;
+    top: 400px;
+    line-height: 2rem;
+    background: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imf-carousal{
+    background-position: center;
+    object-fit: cover;
+ 
+}
+
+.div-sizal::after{
+    content: "";
+    width: 600px;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+
+}
+
+.sizal{
+    font-size: 8rem;
+    font-weight: 800;
+    top: 400px;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    background: transparent;
+    color: #f3f3f3;
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    z-index: 20;  
+    animation-name: SizalUP;
+    animation-duration: 3s;    
+    animation-iteration-count: 1;
+    animation-delay: 100ms;
+    color: #1a6b68;
+}
+
+@keyframes SizalUP {
+    0%{
+        opacity: 0;
+        transform: translateY(-100);
+        color: white;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(50);
+        color: #1a6b68;
+    }
+}
+
+
+.div-len{
+    font-size: 2rem;
+    font-weight: 400;
+  
+    background-color: transparent;
+}
+
+
+@keyframes  textUp {
+    0%{
+        transform: translateY(100);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* media query */
+
+@media screen and (max-width:650px) {
+    .div-sizal{
+        width:100vw;
+        font-size:1.7rem;
+     
+
+    }
+
+    .sizal{
+        font-size: 4rem;
+
+    }
+
+    .div-sizal::after{
+        content: "";
+        width: 350px;
+        
+        height: 2px;
+        background-color: aqua;
+        position: absolute;
+        top: 100px;
+    
+    }
+
+    .div-img{
+        overflow: hidden;
+    }
+
+    .overlay{
+       
+        width:100%;
+    }
+}
+
+ 

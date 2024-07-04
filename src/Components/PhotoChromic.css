@@ -1,0 +1,167 @@
+.back-photochromic{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: -20;
+    animation-name: backgroundscale;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.div-black{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-color: rgba( 37, 37,37,0.4);
+}
+
+.photo-chromic-h2{
+    font-size: 6rem;
+    font-weight: 800;
+    z-index: 20;  
+    width: 100%;
+    height: 500px;
+    z-index: 20;
+    
+    line-height: 2rem;
+    background: transparent;
+    font-family:  serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    font-family: serif;
+    color: #f3f3f3;
+    animation-name: textAnimation;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    overflow: hidden;
+}
+
+/* BACKGROUND SCALE */
+@keyframes backgroundscale {
+    0%{
+        transform: scale(1)
+    }50%{
+        transform: scale(1.2);
+    }100%{
+        transform: scale(1);
+    }
+}
+
+/* TEXT ANIMATION  */
+@keyframes  textAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.h2-photo-chromic{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+
+/* RESPONNSIVE */
+
+@media screen and (max-width:650px) {
+    .photo-chromic-h2{
+        font-size: 4rem;
+        line-height: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+        z-index: 20;  
+        width: 100%;
+        height: 500px;
+        z-index: 20;
+        
+        line-height: 3rem;
+
+        background: transparent;
+        font-family:  serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+        gap: 20px;
+        font-family: serif;
+        color: #f3f3f3;
+    }
+
+    
+
+    .back-photochromic{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        top: 0;
+        z-index: -20;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .photo-chromic-h2{
+        font-size: 4rem;
+        line-height: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+        z-index: 20;  
+        width: 100%;
+        height: 500px;
+        z-index: 20;
+        
+        line-height: 3rem;
+
+        background: transparent;
+        font-family:  serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+        gap: 20px;
+        font-family: serif;
+        color: #f3f3f3;
+    }
+
+    .back-photochromic{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        top: 0;
+        z-index: -20;
+    }
+}
+
+ 

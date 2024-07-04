@@ -1,0 +1,17 @@
+.animation{
+    opacity: 1;
+    transition: all 1000ms;
+}   
+
+.para{
+    font-family: "Poppins" ;
+}
+
+
+ @media screen and (max-width:650px) {
+    .contaner{
+        flex-direction: column;
+    }
+ }
+ 
+

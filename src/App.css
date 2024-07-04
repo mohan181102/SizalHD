@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',serif;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    
+}
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #f3f3f3;
+}
+

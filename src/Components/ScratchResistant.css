@@ -1,0 +1,32 @@
+.scratch-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    padding: 4rem;
+}
+
+.h2-scratch{
+    width: 100%;
+    height: auto;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.div-for-scratch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-scratch{
+    width: 500px;
+}
+
+.p-for-scratch{
+    font-size: 1.5rem;
+    padding-left: 20px;
+}

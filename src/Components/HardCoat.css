@@ -1,0 +1,8 @@
+.hardcoat-p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    visibility: visible;
+    unicode-bidi: isolate;
+    line-height: 35px;
+    -webkit-font-smoothing:antialiased;
+}

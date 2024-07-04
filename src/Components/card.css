@@ -1,0 +1,32 @@
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+   
+  }
+
+/* media query */
+
+@media screen and (max-width:650px) {
+  .slick-prev,  .slick-next{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color:#1a6b68;
+    font-size:4rem;
+    z-index:2;
+  } 
+
+  .h2-Technology{
+    color: green;
+
+  }
+}

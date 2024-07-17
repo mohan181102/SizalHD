@@ -135,15 +135,6 @@ const Navbar = () => {
                   Single Vision
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  onClick={toggleNavbar}
-                  className={`navlink   `}
-                  to="/steel-coat"
-                >
-                  Steel Coat
-                </NavLink>
-              </li>
             </ul>
           </div>
           <div className={`navlist  `}>
@@ -158,27 +149,27 @@ const Navbar = () => {
                 <NavLink
                   onClick={toggleNavbar}
                   className={`navlink  `}
-                  to="/hard-coat"
+                  to="/steel-coat"
                 >
-                  Hard Coat Lenses
+                  Steel Coat
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   onClick={toggleNavbar}
                   className={`navlink  `}
-                  to="/anti-reflective"
+                  to="/platinum-green"
                 >
-                  Anti-Reflective Lenses
+                  Platinum Green
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   onClick={toggleNavbar}
                   className={`navlink  `}
-                  to="/scratch-resistant"
+                  to="/platinum-blue"
                 >
-                  Scratch Resistant
+                  Platinum Blue
                 </NavLink>
               </li>
             </ul>

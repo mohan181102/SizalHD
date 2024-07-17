@@ -77,8 +77,7 @@ const Container = styled.section`
     font-family:"Poppins";
   }
 
-  .img-photo-chromic{
-    
+  .img-photo-chromic{    
     width:40%;
     margin-bottom:20px;
     background-color:white;

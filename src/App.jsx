@@ -38,8 +38,8 @@ function App() {
         <Route path="/single-vision" Component={SingleVision} />
         <Route path="/steel-coat" Component={SteelCoat} />
         <Route path="/hard-coat" Component={HardCoat} />
-        <Route path="/anti-reflective" Component={AntiReflective} />
-        <Route path="/scratch-resistant" Component={ScratchResistant} />
+        <Route path="/platinum-green" Component={AntiReflective} />
+        <Route path="/platinum-blue" Component={ScratchResistant} />
         <Route path="/photo-chromatic" Component={PhotoChromic} />
       </Routes>
       <Footer />

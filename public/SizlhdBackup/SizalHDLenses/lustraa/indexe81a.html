@@ -1,0 +1,33 @@
+
+				<script type="text/javascript">
+					jQuery(function(){
+						jQuery(".vp-a, .vp-s").on('click', function () {
+							jQuery('.videoPopup-on-pageload').remove();
+						});
+
+						jQuery('.YouTubePopUp-Wrap').fadeIn(300);
+
+						jQuery(".YouTubePopUp-Wrap, .YouTubePopUp-Close").click(function(){
+                			jQuery(".YouTubePopUp-Wrap").fadeOut(300).delay(325).queue(function() { jQuery(this).remove(); });
+            			});
+
+            			jQuery('.vp-flex, .vp-flex *').click(function(e){
+                			e.stopPropagation();
+            			});
+
+						jQuery(document).keyup(function(e) {
+            				if ( e.keyCode == 27 ){
+                				jQuery('.YouTubePopUp-Close').click();
+            				}
+        				});
+					});
+				</script>
+
+				<div style="max-width:880px; height:440px;" class="vp-flex vp-vt-youtube">
+					<span class="YouTubePopUp-Close"></span>
+											<iframe  allow="autoplay" allowfullscreen data-src="https://www.youtube.com/embed/GCVcES1ZxqA?autoplay=1&mute=0" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
+					
+					
+									</div>
+
+			

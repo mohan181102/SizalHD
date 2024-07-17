@@ -39,12 +39,12 @@ const AntiReflective = () => {
       >
         <div className={`div-black`}></div>
       </div>
-      <h2 className={`photo-chromic-h2`}>Anti-Reflective Lenses</h2>
+      <h2 className={`photo-chromic-h2`}>Platinum Green Lense</h2>
       <div className={`main-div sm:p-0 sm:w-full p-4  px-6`}>
         <h2
           className={`h2-anti-reflection px-[60px] sm:px-[20px] sm:text-[25px] mb-2 font-[Poppins] font-[500]`}
         >
-          Anti-Reflective Lens Coating
+          Platinum Green Lens
         </h2>
 
         <div
@@ -62,57 +62,50 @@ const AntiReflective = () => {
           <p
             className={`p-anti-reflection font-[Poppins] sm:w-[95%] sm:px-2 sm:text-[15px] text-black w-[70%]`}
           >
-            Anti-reflective (AR) lens coatings, also known as anti-glare
-            coatings, are a type of optical coating applied to the surface of
-            eyeglass lenses to reduce reflections, glare, and halos around
-            lights. This enhancement improves both the aesthetic appearance and
-            visual comfort of the wearer by allowing more light to pass through
-            the lenses and reducing distracting reflections.Anti-reflective (AR)
-            coated lenses are a revolutionary advancement in eyewear technology,
-            providing a multitude of benefits that significantly enhance the
-            visual experience and comfort of the wearer. These coatings work by
-            minimizing reflections on the lens surfaces, allowing more light to
-            pass through and thus improving vision clarity and reducing eye
-            strain.
-            <br /> This is particularly beneficial in low-light conditions and
-            during tasks that involve prolonged exposure to digital screens,
-            such as computer work or using smartphones. The reduction of glare
-            from headlights, streetlights, and other bright sources is
-            especially advantageous for nighttime driving, making it safer and
-            more comfortable. Aesthetically, AR coatings make lenses appear
-            nearly invisible by eliminating reflections, which allows for better
-            eye contact and a clearer, more natural appearance in photographs
-            and everyday interactions. Moreover, modern AR coatings often
-            incorporate additional features such as scratch resistance, smudge
-            resistance, and UV protection, making them more durable and easier
-            to maintain.
+            Platinum green lenses are a type of eyewear designed to address the
+            challenges posed by prolonged exposure to digital screens and
+            artificial light. These lenses are equipped with advanced filtering
+            technology that selectively blocks harmful blue light while allowing
+            beneficial light to pass through. By reducing the amount of
+            high-energy visible (HEV) blue light that reaches the eyes, platinum
+            green lenses help prevent eye strain, fatigue, and potential
+            long-term damage associated with digital device use.
+            <br /> In addition to their blue light filtering properties,
+            platinum green lenses often feature anti-reflective coatings that
+            minimize glare and enhance visual clarity. This makes them
+            particularly suitable for individuals who spend a significant amount
+            of time working on computers, browsing smartphones, or watching
+            television.Moreover, platinum green lenses may include UV protection
+            to shield the eyes from harmful ultraviolet rays emitted by the sun.
+            This dual protection ensures comprehensive safeguarding against both
+            indoor and outdoor sources of potentially damaging light.
           </p>
         </div>
         <h2
           className={`h2-how-anti-reflection px-[60px] sm:px-[20px] sm:text-[25px] font-[Poppins] text-[27px]`}
         >
-          How Anti-Reflective Coating Works:
+          How Platinum Green lense work:
         </h2>
         <br className={` sm:hidden`} />
         <p
           className={`p-anti-reflection sm:w-[95%] px-[60px] sm:px-[20px] font-[Poppins]`}
         >
-          Anti-reflective (AR) coated lenses work by applying multiple
-          ultra-thin layers of metal oxides to the lens surfaces in a vacuum.
-          These layers are designed to reduce reflections by canceling out light
-          waves that reflect off the front and back surfaces of the lenses. This
-          allows more light to pass through the lenses, enhancing vision clarity
-          and reducing glare. The result is improved visual comfort, especially
-          in low-light conditions and during activities like night driving or
-          using digital screens, as well as a more aesthetically pleasing
-          appearance with less noticeable reflections on the lenses.
+          Platinum green lenses utilize advanced optical coatings that
+          selectively filter out harmful blue light while allowing beneficial
+          light wavelengths to pass through. These lenses are specifically
+          designed to reduce eye strain caused by prolonged exposure to digital
+          screens and artificial light sources. By blocking a significant
+          portion of high-energy visible (HEV) blue light, platinum green lenses
+          enhance visual comfort, minimize glare with anti-reflective coatings,
+          and may provide additional UV protection, thereby supporting overall
+          eye health in today's technology-driven world.
         </p>
 
         {/* fetures */}
         <h2
           className={`w-[100%] pl-[150px] sm:pl-[40px] mt-4 items-center justify-start text-[2rem] font-[Poppins] bg-white`}
         >
-          Antireflection Features
+          Platinum Green lenses Features
         </h2>
         <div
           className={`w-full h-[400px] sm:h-auto flex items-center bg-white justify-center gap-2 p-4 flex-wrap`}
@@ -121,7 +114,7 @@ const AntiReflective = () => {
             className={`w-[20%] h-[50%] sm:overflow-scroll sm:w-[45%] sm:h-[200px] sm:p-3 bg-[#1a6b68] flex items-center justify-center font-[Poppins] p-2 text-white `}
           >
             {trimpara(
-              "Reduced Reflection: AR coatings significantly decrease surface reflections, improving clarity and contrast in optical systems.",
+              " Effectively blocks harmful high-energy visible (HEV) blue light emitted by digital screens, reducing eye strain and fatigue.",
               70
             )}
           </div>
@@ -129,7 +122,7 @@ const AntiReflective = () => {
             className={`w-[20%] h-[50%] sm:overflow-scroll sm:w-[45%] sm:h-[200px] sm:p-3 bg-[#1a6b68] flex items-center justify-center p-2 font-[Poppins] text-white `}
           >
             {trimpara(
-              " Increased Transmission: By minimizing reflection losses, more light passes through the surface, enhancing brightness and visibility.",
+              "Minimizes glare and reflections from both the front and back surfaces of the lenses, improving visual clarity and reducing distractions.",
               70
             )}
           </div>
@@ -137,7 +130,7 @@ const AntiReflective = () => {
             className={`w-[20%] h-[50%] sm:overflow-scroll sm:w-[45%] sm:h-[200px] sm:p-3 bg-[#1a6b68] flex items-center justify-center p-2 font-[Poppins] text-white`}
           >
             {trimpara(
-              "  Broadband Performance: Effective across a wide range of wavelength sensuring consistent performance in various lighting conditions.",
+              "Some variants provide protection against harmful UV rays, safeguarding the eyes from both indoor and outdoor sources of ultraviolet radiation.",
               70
             )}
           </div>
@@ -145,7 +138,7 @@ const AntiReflective = () => {
             className={`w-[20%] h-[50%] sm:overflow-scroll sm:w-[45%] sm:h-[200px] sm:p-3 bg-[#1a6b68] flex items-center justify-center p-2 font-[Poppins] text-white `}
           >
             {trimpara(
-              "Durability: Modern AR coatings are durable, resistant to scratching and environmental factors, extending the lifespan of optical components.",
+              " Improves contrast and sharpness of vision, especially in low-light conditions, enhancing overall visual experience.",
               70
             )}
           </div>
@@ -161,7 +154,7 @@ const AntiReflective = () => {
             className={`w-[20%] h-[50%] sm:overflow-scroll sm:w-[45%] sm:h-[200px] sm:p-3 bg-[#1a6b68] flex items-center justify-center p-2 font-[Poppins] text-white`}
           >
             {trimpara(
-              " Protects Special Coatings: Shields additional coatings like anti-reflective and UV protection.",
+              "Available in a variety of fashionable frames, allowing wearers to combine functionality with personal style preferences.",
               70
             )}
           </div>

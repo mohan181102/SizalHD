@@ -13,7 +13,7 @@ const Features = ({
   return (
     <>
       <div
-        className={`w-[100%] h-[500px] sm:h-auto    flex ${
+        className={`w-[100%] h-[500px] sm:h-auto flex ${
           direction == "reverse" ? "flex-row-reverse sm:flex-col" : " "
         } items-center justify-center overflow-hidden sm:rounded-md sm:!flex-col `}
       >

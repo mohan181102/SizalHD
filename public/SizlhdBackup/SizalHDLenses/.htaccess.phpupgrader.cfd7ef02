@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.sizalhdlenses.com/$1 [R,L]
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>

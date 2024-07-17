@@ -75,6 +75,7 @@ const Head = styled.h1`
 
   @media (max-width: 650px) {
     width: 200px;
+    
   }
 `;
 

@@ -21,15 +21,15 @@ const ImgBar = () => {
   const Image_array = [
     {
       name: "Anti-Reflection treatement from Solar Impacts",
-      url: "/felipepelaquim-Ns0iGdiSx00-unsplash.jpg",
+      url: "src/assets/9.png",
     },
     {
       name: "Platinum series",
-      url: "/evgeniia-mylovestory-photo-fke7Y4YyOQA-unsplash.jpg",
+      url: "src/assets/10.png",
     },
     {
       name: "image3",
-      url: "/redowan-dhrubo-dJz6m1_CCoQ-unsplash.jpg",
+      url: "src/assets/13.png",
     },
   ];
 
